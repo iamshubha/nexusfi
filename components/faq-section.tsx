@@ -39,7 +39,7 @@ export function FaqSection() {
   return (
     <section className="w-full py-24 px-6">
       <div className="max-w-3xl mx-auto space-y-12">
-        <motion.div 
+        <motion.div
           className="text-center space-y-4"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -47,13 +47,13 @@ export function FaqSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight">
-            We've Got the Answers
+            We&apos;ve Got the Answers
             <br />
-            You're Looking For
+            You&apos;re Looking For
           </h2>
           <p className="text-lg text-white/60">
             Find answers to common queries about our product, features, and services. If you
-            need more information, we're here to help!
+            need more information, we&apos;re here to help!
           </p>
         </motion.div>
 

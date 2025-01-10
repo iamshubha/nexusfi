@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import Image from "next/image"
+// import Image from "next/image"
 
 export function FloatingCoins() {
   const coins = [
@@ -25,19 +25,19 @@ export function FloatingCoins() {
             width: coin.size,
             height: coin.size,
           }}
-          initial={{ 
-            x: coin.x - coin.size/2, 
-            y: coin.y - coin.size/2, 
+          initial={{
+            x: coin.x - coin.size / 2,
+            y: coin.y - coin.size / 2,
             opacity: 0,
             scale: 0.5
           }}
-          animate={{ 
+          animate={{
             opacity: 1,
             scale: 1,
             y: [
-              coin.y - coin.size/2,
-              coin.y - coin.size/2 - 10,
-              coin.y - coin.size/2
+              coin.y - coin.size / 2,
+              coin.y - coin.size / 2 - 10,
+              coin.y - coin.size / 2
             ]
           }}
           transition={{
