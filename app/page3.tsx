@@ -7,7 +7,6 @@ import { CheckItem } from "@/components/check-item"
 import { FloatingCoins } from "@/components/floating-coins"
 import { FaqSection } from "@/components/faq-section"
 import { EarlyAccessForm } from "@/components/early-access-form"
-import { Footer } from "@/components/footer"
 
 export default function Page() {
   return (
@@ -106,12 +105,12 @@ export default function Page() {
       <div className="w-full py-12 border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between items-center gap-8 overflow-x-auto pb-4 no-scrollbar">
-            {/* <Image src="/nexusFi-08.svg" alt="Partner 1" width={40} height={40} className="w-10 h-10 opacity-50" />
-            <Image src="/nexusFi-08.svg" alt="Nibiru" width={120} height={40} className="h-8 w-auto opacity-50" />
-            <Image src="/nexusFi-08.svg" alt="Partner 3" width={40} height={40} className="w-10 h-10 opacity-50" />
-            <Image src="/nexusFi-08.svg" alt="Big Layer" width={120} height={40} className="h-8 w-auto opacity-50" />
-            <Image src="/nexusFi-08.svg" alt="Partner 5" width={40} height={40} className="w-10 h-10 opacity-50" />
-            <Image src="/nexusFi-08.svg" alt="Partner 6" width={120} height={40} className="h-8 w-auto opacity-50" /> */}
+            {/* <Image src="/placeholder.svg" alt="Partner 1" width={40} height={40} className="w-10 h-10 opacity-50" />
+            <Image src="/placeholder.svg" alt="Nibiru" width={120} height={40} className="h-8 w-auto opacity-50" />
+            <Image src="/placeholder.svg" alt="Partner 3" width={40} height={40} className="w-10 h-10 opacity-50" />
+            <Image src="/placeholder.svg" alt="Big Layer" width={120} height={40} className="h-8 w-auto opacity-50" />
+            <Image src="/placeholder.svg" alt="Partner 5" width={40} height={40} className="w-10 h-10 opacity-50" />
+            <Image src="/placeholder.svg" alt="Partner 6" width={120} height={40} className="h-8 w-auto opacity-50" /> */}
           </div>
         </div>
       </div>
@@ -268,17 +267,8 @@ export default function Page() {
 
       <FaqSection />
       <EarlyAccessForm />
-      <Footer />
 
     </div>
   )
 }
-
-// .no - scrollbar:: -webkit - scrollbar {
-//   display: none;
-// }
-// .no - scrollbar {
-//   -ms - overflow - x: hidden;
-//   scrollbar - width: none;
-// }
 
